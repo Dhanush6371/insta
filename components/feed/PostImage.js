@@ -15,5 +15,4 @@ const PostImage = ({ imgUrl }) => {
         </div>
     )
 }
-
 export default PostImage
