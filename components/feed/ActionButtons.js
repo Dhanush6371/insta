@@ -1,4 +1,4 @@
-// import { useAppContext } from '../../context/context'
+import { useAppContext } from '../../context/context'
 
 import { AiOutlineHeart, AiOutlineClose } from 'react-icons/ai'
 import { FaRegComment, FaEdit } from 'react-icons/fa'
