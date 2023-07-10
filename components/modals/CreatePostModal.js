@@ -8,7 +8,6 @@ export default function CreatePostModal({ createPost, createPostModalOpen, setCr
     const closeModal = () => {
         setCreatePostModalOpen(false)
     }
-
     const onCreate = (e) => {
         e.preventDefault()
 
