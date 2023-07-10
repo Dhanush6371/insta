@@ -4,7 +4,6 @@ const style = {
     wrapper: `container`,
     appContainer: `homepage-container flex justify-center`,
 }
-
 const Layout = ({ children, setCreatePostModalOpen }) => {
     return (
         <div className={style.wrapper}>
