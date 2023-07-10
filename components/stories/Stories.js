@@ -1,6 +1,5 @@
 import Border from '../common/Border'
 import StoryItem from './StoryItem'
-
 const style = {
     wrapper: `stories-container sm:full-width`,
     container: `stories-feed overflow-y-hidden py-4 px-2 items-center stories-feed-floating flex relative transition ease-linear duration-300`,
