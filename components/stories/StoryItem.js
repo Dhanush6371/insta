@@ -9,7 +9,6 @@ const style = {
     image: `object-cover`,
     username: `story-username text-black text-12-light mt-1`,
 }
-
 const StoryItem = ({ data }) => {
     const {
         wallet,
