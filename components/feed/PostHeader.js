@@ -11,7 +11,6 @@ const style = {
     usernameContainer: `feed-item-header-text text-14-bold mr-1 ml-4 cursor-pointer`,
     moreIcon: `ml-auto flex`,
 }
-//
 
 const PostHeader = ({ username, owner, postId }) => {
     const {
