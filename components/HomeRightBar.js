@@ -16,7 +16,7 @@ const style = {
 
 const HomeRightBar = ({ data }) => {
     const [userAddress, setUserAddress] = useState('')
-    // const { address } = useAccount()
+    const { address } = useAccount()
 
     //SOLANA STUFF
     const {
