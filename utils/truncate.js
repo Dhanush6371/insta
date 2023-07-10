@@ -3,5 +3,6 @@ export const truncate = (longString, limit = 10) => {
         return longString.substring(0, limit) + '...'
     }
 
+    
     return longString
 }
