@@ -1,12 +1,10 @@
 import '../styles/globals.css'
 //Solana Imports
 import { useEffect, useMemo, useState } from "react";
-
 import {
   ConnectionProvider,
   WalletProvider,
 } from "@solana/wallet-adapter-react";
-
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 import {
   PhantomWalletAdapter,
@@ -14,9 +12,7 @@ import {
   BackpackWalletAdapter,
   LedgerWalletAdapter,
 } from "@solana/wallet-adapter-wallets";
-
 import "@solana/wallet-adapter-react-ui/styles.css";
-
 import { RPC_ENDPOINT } from "../utils";
 import { GlobalState } from "../state/global";
 
