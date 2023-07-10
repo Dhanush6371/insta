@@ -5,7 +5,6 @@ import { useGlobalState } from "../../hooks";
 export default function EditPostModal({ updatePost, currentEditListing, editPostModalOpen, setEditPostModalOpen, currentEditPostID }) {
     const [caption, setCaption] = useState('')
 
-
     //SOLANA STUFF
     const {
         wallet,
