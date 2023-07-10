@@ -2,7 +2,6 @@ import Image from 'next/image'
 import DisplayName from '../common/DisplayName'
 import { useGlobalState } from '../../hooks'
 
-
 const style = {
     wrapper: `story-item w-20 flex-shrink-0 flex flex-col justify-center items-center cursor-pointer`,
     storyContainer: `story-photo-container `,
