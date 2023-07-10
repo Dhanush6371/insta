@@ -1,6 +1,7 @@
 const Border = ({ children, border = false, ...props }) => {
     const customClass = props.className + ' box'
 
+    
     return (
         <div
             {...props}
