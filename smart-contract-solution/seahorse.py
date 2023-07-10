@@ -3,7 +3,6 @@
 # parts of this program that are written in less-than-ideal ways.
 
 from seahorse.prelude import *
-
 # This is your program's public key and it will update
 # automatically when you build the project.
 declare_id('5ExEq9ZxGfwSyw5ov4UFK7ws9NpDf2KnUk3wLqfAir4m')
