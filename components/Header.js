@@ -1,9 +1,6 @@
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import Modal from 'react-modal'
-
-
-
 import { GrHomeRounded } from 'react-icons/gr'
 import { AiOutlineCloudUpload } from 'react-icons/ai'
 import { IoPaperPlaneOutline } from 'react-icons/io5'
