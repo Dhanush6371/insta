@@ -10,7 +10,6 @@ const style = {
     followedByText: `text-12-light`,
     followButton: `follow-button text-12-bold flex items-center ml-auto text-blue cursor-pointer`,
 }
-
 const SuggestionItem = ({ data }) => {
     return (
         <div className={style.wrapper}>
