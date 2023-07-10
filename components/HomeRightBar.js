@@ -13,7 +13,6 @@ const style = {
     imageContainer: `h-[3rem] w-[3rem] relative rounded-full overflow-hidden cursor-pointer border-white border-2`,
     image: `object-cover`,
 }
-
 const HomeRightBar = ({ data }) => {
     const [userAddress, setUserAddress] = useState('')
     const { address } = useAccount()
