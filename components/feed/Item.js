@@ -6,8 +6,6 @@ import Caption from './Caption'
 import PostImage from './PostImage'
 import { truncate } from '../../utils/truncate'
 
-
-
 const style = {
     wrapper: `feed-item-container flex flex-col`,
     buttonsContainer: `feed-item-buttons-container w-full h-10 pl-2 pr-2 mt-2 flex items-center`,
